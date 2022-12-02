@@ -14,4 +14,8 @@ public class EmployedPerson extends SeniorPerson {
     public void IsResting() {
         System.out.println(super.fullName + " is resting!");
     }
+
+    public void CanDo() {
+        System.out.println("The Employed Person can buy his own groceries.");
+    }
 }

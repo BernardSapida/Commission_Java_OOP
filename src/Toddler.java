@@ -14,4 +14,8 @@ public class Toddler extends AdultPerson {
     public void IsAtHome() {
         System.out.println("Toddler is at home!");
     }
+
+    public void CanDo() {
+        System.out.println("The Toddler Person can play and kiss mom and dad.");
+    }
 }
